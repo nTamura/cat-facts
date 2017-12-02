@@ -1,0 +1,38 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.brand-icon {
+  height: 35px;
+  vertical-align: text-bottom;
+}
+
+.noLink {
+  pointer-events: none;
+}
+
+.parallax img {
+  width: 100%;
+}
+
+.offset-container {
+  background-color: #f0f0f0;
+  padding: 40px 0px 60px;
+}
+.main-container {
+  padding: 40px 0px 60px;
+}
+
+.header {
+  font-weight: bold;
+  text-shadow: 1px 1px rgb(94, 94, 94);
+
+}
+
+.fact-card {
+  font-size: 16px;
+}

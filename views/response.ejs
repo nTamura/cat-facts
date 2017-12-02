@@ -1,0 +1,48 @@
+<%- include partials/header.ejs %>
+  <%# temp template for rendering JSON %>
+    <div class="container">
+
+
+      <h3>How does it work?</h3>
+      <hr />
+
+      <h4>Enter your number</h4>
+      <div class="row">
+        <form class="col s12" method="POST">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="phone_input" name="phone" type="text" data-length="10">
+              <label for="phone">Phone Number</label>
+            </div>
+            <div class="input-field col s6">
+              <button class="btn waves-effect waves-light" type="submit" name="action">
+                <i class="material-icons">send</i>
+              </button>
+            </div>
+          </div>
+          <%# <span class="help-text">By submitting your number, you are agreeing to our <a>Terms and Conditions</a> for w/e stuff.</span>%>
+        </form>
+      </div>
+      <br><br>
+
+      <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <h4> Get a random cat fact: </h4>
+        <div class="card-panel grey lighten-5 z-depth-1">
+          <h5> Fact! </h5>
+
+          <div class="row valign-wrapper">
+            <div class="col s2">
+              <img src="images/info-icon.png" alt="" class=" responsive-img">
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+          <%- fact %>
+        </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <%- include partials/footer.ejs %>
